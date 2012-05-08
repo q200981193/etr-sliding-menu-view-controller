@@ -116,7 +116,6 @@ CGFloat const ETRSlidingMenuAnimationSpeedDefault = NSUIntegerMax;
 
     // Create the content view container
     self.contentViewContainer = [[[UIView alloc] initWithFrame:self.view.bounds] autorelease];
-    [self.contentViewContainer setBackgroundColor:[UIColor redColor]];
     
     // Add a pan gesture recognizer to the contentViewContainer
     // This allows screens that dont alternatively handle panning to use that gesture for menu activation
